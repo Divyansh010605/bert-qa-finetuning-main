@@ -1,2 +1,27 @@
-# Ignore any `build` directory
-build/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+
+# Data and Models
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
